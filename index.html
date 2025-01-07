@@ -21,13 +21,13 @@
                 <name>Stanislav Frolov</name>
               </p>
               <p>
-                  Hi, I'm a 4th year Ph.D. student at <a href="https://rptu.de/">RPTU Kaiserslautern</a> and
-                  <a href="https://www.dfki.de/en/web/">German Research Center for Artificial Intelligence</a>,
-                  advised by <a href="https://www.dfki.uni-kl.de/~dengel/indexEng.php">Andreas Dengel</a>.
+                  Hi, I'm a researcher at the <a href="https://www.dfki.de/en/web/">German Research Center for Artificial Intelligence</a>.
+                  I recently submitted my Ph.D. thesis at the <a href="https://rptu.de/en/">RPTU Kaiserslautern</a>,
+                  where I was advised by <a href="https://www.dfki.uni-kl.de/~dengel/indexEng.php">Andreas Dengel</a>.
               </p>
               <p>
                   My main interests are computer vision and machine learning.
-                  I use deep generative models for <b>controlled image synthesis</b>.
+                  I use deep generative models for <b>visual content synthesis</b>.
               </p>
               <p>
                   In 2021, I interned at <a href="https://research.adobe.com/">Adobe Research</a>
@@ -105,29 +105,75 @@
         </tbody>
       </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
+        <!-- You can put this CSS in a <style> block or a separate CSS file -->
+        <style>
+        details summary {
+          font-size: 1.2em;
+          font-weight: bold;
+          margin-top: 1em;
+          cursor: pointer;
+        }
+
+        heading {
+          display: block;
+          font-size: 1.5em;
+          margin-bottom: 1em;
+        }
+        </style>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr>
               <td style="padding-left:20px;width:100%;vertical-align:middle">
-                  <heading>News</heading>
+                <heading>News</heading>
+
+                <!-- Top year: unfolded by default using "open" attribute -->
+                <details open>
+                  <summary>2024</summary>
                   <ul>
-                      <li>[07/2024] Our <a href="https://spotdiffusion.github.io/">SpotDiffusion</a> paper got accepted to WACV 2025 in the first round.</li>
-                      <li>[07/2024] New paper: <a href="https://arxiv.org/abs/2407.15507">SpotDiffusion</a> produces fast seamless panoramas via shifted denoising windows over time.</li>
-                      <li>[07/2024] Our <a href="https://arxiv.org/abs/2404.07564">ObjBlur</a> paper got accepted to ACM Multimedia 2024.</li>
-                      <li>[04/2024] New paper: <a href="https://arxiv.org/abs/2404.17670">Federated Super-Resolution</a> studies distributed degradations among varying user numbers.</li>
-                      <li>[04/2024] New paper: <a href="https://arxiv.org/abs/2404.07564">ObjBlur</a> uses progressive object-level blurring to improve L2I models.</li>
-                      <li>[03/2024] New paper: <a href="https://arxiv.org/abs/2403.03881">LD3M</a> proposes latent dataset distillation with diffusion models.</li>
-                      <li>[01/2024] New <a href="https://arxiv.org/abs/2401.00736">Survey on Diffusion Models for Super-Resolution</a> is online.</li>
-                      <li>[08/2023] New paper: <a href="https://arxiv.org/abs/2308.07977">YODA</a> uses dynamic attention-guided diffusion for SR.</li>
-                      <li>[07/2023] New paper: <a href="https://arxiv.org/abs/2307.04593">Differential Wavelet Amplifier</a> got accepted to ICANN 2023.</li>
-                      <li>[06/2023] Our <a href="https://arxiv.org/abs/2304.04518">impact of image compression</a> study got accepted at the ICML workshop on neural compression.</li>
-                      <li>[04/2023] New paper: <a href="https://arxiv.org/abs/2304.01994">DiWa</a> uses wavelets to improve diffusion-based SR.</li>
-                      <li>[02/2023] Our <a href="https://arxiv.org/abs/2209.13131">Super-Resolution Survey</a> paper got accepted to TPAMI.</li>
-                      <li>[08/2022] Started research internship at <a href="https://ai.facebook.com/">Meta AI</a> in Paris working on 360° image generation.</li>
-                      <li>[07/2022] Our <a href="https://arxiv.org/abs/2204.02035">DT2I</a> paper got accepted to ICANN 2022.</li>
+                    <li>[11/2024] Five new papers on arxiv!</li>
+                      <ul>
+                        <li><a href="https://arxiv.org/abs/2411.15581">TKG-DM</a> is a training-free diffusion approach to generate objects with specifiable color background.</li>
+                        <li><a href="https://arxiv.org/abs/2411.12073">Just Leaf It</a> is a hierarchical diffusion classifier that accelerates inference by up to 60%.</li>
+                        <li><a href="https://arxiv.org/abs/2411.12115">Distill the Best, Ignore the Rest</a> improves dataset distillation using loss-value-based pruning.</li>
+                        <li><a href="https://arxiv.org/abs/2411.12072">ZIDO</a> enables extreme image super-resolution using local degradation-aware prompt extraction. </li>
+                        <li><a href="https://arxiv.org/abs/2411.10231">TaylorIR</a> is an efficient pixel-based transformer method for image super-resolution.</li>
+                      </ul>
+                    <li>[07/2024] Our <a href="https://spotdiffusion.github.io/">SpotDiffusion</a> paper got accepted to WACV 2025 in the first round.</li>
+                    <li>[07/2024] New paper: <a href="https://arxiv.org/abs/2407.15507">SpotDiffusion</a> produces fast seamless panoramas via shifted denoising windows over time.</li>
+                    <li>[07/2024] Our <a href="https://arxiv.org/abs/2404.07564">ObjBlur</a> paper got accepted to ACM Multimedia 2024.</li>
+                    <li>[04/2024] New paper: <a href="https://arxiv.org/abs/2404.17670">Federated Super-Resolution</a> studies distributed degradations among varying user numbers.</li>
+                    <li>[04/2024] New paper: <a href="https://arxiv.org/abs/2404.07564">ObjBlur</a> uses progressive object-level blurring to improve L2I models.</li>
+                    <li>[03/2024] New paper: <a href="https://arxiv.org/abs/2403.03881">LD3M</a> proposes latent dataset distillation with diffusion models.</li>
+                    <li>[01/2024] New <a href="https://arxiv.org/abs/2401.00736">Survey on Diffusion Models for Super-Resolution</a> is online.</li>
                   </ul>
+                </details>
+
+                <details>
+                  <summary>2023</summary>
+                  <ul>
+                    <li>[08/2023] New paper: <a href="https://arxiv.org/abs/2308.07977">YODA</a> uses dynamic attention-guided diffusion for SR.</li>
+                    <li>[07/2023] New paper: <a href="https://arxiv.org/abs/2307.04593">Differential Wavelet Amplifier</a> got accepted to ICANN 2023.</li>
+                    <li>[06/2023] Our <a href="https://arxiv.org/abs/2304.04518">impact of image compression</a> study got accepted at the ICML workshop on neural compression.</li>
+                    <li>[04/2023] New paper: <a href="https://arxiv.org/abs/2304.01994">DiWa</a> uses wavelets to improve diffusion-based SR.</li>
+                    <li>[02/2023] Our <a href="https://arxiv.org/abs/2209.13131">Super-Resolution Survey</a> paper got accepted to TPAMI.</li>
+                  </ul>
+                </details>
+
+                <details>
+                  <summary>2022</summary>
+                  <ul>
+                    <li>[08/2022] Started research internship at <a href="https://ai.facebook.com/">Meta AI</a> in Paris working on 360° image generation.</li>
+                    <li>[07/2022] Our <a href="https://arxiv.org/abs/2204.02035">DT2I</a> paper got accepted to ICANN 2022.</li>
+                  </ul>
+                </details>
+
               </td>
-          </tr>
-          </tbody></table>
+            </tr>
+          </tbody>
+        </table>
+
+
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
